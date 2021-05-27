@@ -1,0 +1,12 @@
+docker tag localimagename(restapi_web)  (reponame/newrepo)  jyotibera/django-rest-postgres // jyotibera/restapi_web
+docker push reponame (jyotibera/django-rest-postgres)
+
+docker images 
+docker login 
+docker-compose build
+docker-compse up
+
+#tag a local image 
+ docker tag <image> <newName>/<repoName>:<tagName>
+docker tag postgres jyotibera/django-rest-postgres:django
+docker push jyotibera/django-rest-postgres:django
