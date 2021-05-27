@@ -6,7 +6,7 @@ docker login
 docker-compose build
 docker-compse up
 
-#tag a local image 
+#tag a local image for pushing docker hub
  docker tag <image> <newName>/<repoName>:<tagName>
 docker tag postgres jyotibera/django-rest-postgres:django
 docker push jyotibera/django-rest-postgres:django
