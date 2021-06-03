@@ -86,8 +86,8 @@ DATABASES = {
         'NAME': 'company',
         'USER': 'postgres',
         'PASSWORD': 'test',
-        'HOST': 'pgdb',
-        # 'HOST': '172.17.0.11',
+        # 'HOST': 'pgdb',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
